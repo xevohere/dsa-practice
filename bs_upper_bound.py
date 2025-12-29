@@ -1,4 +1,4 @@
-def lower_bound(nums, low, high, target):
+def upper_bound(nums, low, high, target):
     ans = high-low+1
     
     while low<=high:
@@ -13,5 +13,5 @@ def lower_bound(nums, low, high, target):
     return ans 
 
 nums=[101,102,103,104,104,104,104,110, 115,119]
-p=lower_bound(nums, 0, 9, 104)
+p=upper_bound(nums, 0, 9, 104)
 print(p)
