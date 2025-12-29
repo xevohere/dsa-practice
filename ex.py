@@ -17,8 +17,8 @@ def binary_search(nums,left,right,t):
         else:
             right = m-1
     return -1
-        
-    
+    '''    
+print("if you can explain it in one sentence then its a good commit")
 nums = [10,20,30,40,50,60,70]
 n = len(nums)
 t=60
